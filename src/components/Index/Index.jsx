@@ -1,13 +1,12 @@
 import React from 'react';
 import './Index.css';
-import Background from '../assets/Background.svg';
 
 function Index() {
   return (
     <div
-      className='hero-section text-center'
+      className='text-center hero-section'
     >
-      <div className='intro-message text-white'>
+      <div className='text-white intro-message'>
         <h1 className='text-3xl'>
           Hello, I'm <br />
           <strong className='text-7xl'>Zachary Tecson</strong>
