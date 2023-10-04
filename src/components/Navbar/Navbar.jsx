@@ -5,9 +5,6 @@ import { Fade as Hamburger } from 'hamburger-react';
 function Navbar() {
   const [isOpen, setOpen] = useState(false);
 
-  const readThis = () => {
-    console.log(isOpen);
-  };
   return (
     <nav className={`fixed z-10 flex flex-col w-full px-20 py-6 text-white bg-black opacity-80 ${isOpen ? 'h-96':'' } `}>
       <div className='flex items-center justify-between w-full'>
@@ -43,7 +40,7 @@ function Navbar() {
               Download CV
             </button>
           </li>
-          <li className='hidden hamburger' onClick={() => readThis()}>
+          <li className='hidden hamburger'>
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </li>
         </ul>
