@@ -3,7 +3,7 @@ import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className='flex items-center justify-between px-20 py-6 bg-black opacity-80'>
+    <nav className='fixed z-10 flex items-center justify-between w-full px-20 py-6 bg-black opacity-80 '>
       <ul className='flex space-x-3 text-white'>
         <li>
           <a href='mailto:abc@example.com?subject = Feedback&body = Message'>
@@ -23,16 +23,18 @@ function Navbar() {
       </ul>
       <ul className='flex items-center space-x-3 text-xl text-white cursor-pointer'>
         <li>
-          <button>About</button>
+          <button className='w-28'>About</button>
         </li>
         <li>
-          <button>Projects</button>
+          <button className='w-28'>Projects</button>
         </li>
         <li>
-          <button>Certifications</button>
+          <button className='w-36'>Certifications</button>
         </li>
         <li>
-          <button className='px-5 py-1.5 text-black bg-white rounded-md'>Download CV</button>
+          <button className='px-5 py-1.5 text-black bg-white rounded-md w-44'>
+            Download CV
+          </button>
         </li>
       </ul>
     </nav>
