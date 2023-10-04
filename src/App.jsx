@@ -1,15 +1,14 @@
-import './App.css'
-import Navbar from './components/Navbar/navbar'
-import Index from './components/index'
+import './App.css';
+import Navbar from './components/Navbar/Navbar.jsx';
+import Index from './components/Index/Index.jsx';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Index/>
+      <Index />
     </>
-
-  )
+  );
 }
 
 export default App;

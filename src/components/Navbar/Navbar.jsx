@@ -6,8 +6,8 @@ function Navbar() {
     <nav className='fixed z-10 flex items-center justify-between w-full px-20 py-6 bg-black opacity-80 '>
       <ul className='flex space-x-3 text-white'>
         <li>
-          <a href='mailto:abc@example.com?subject = Feedback&body = Message'>
-            <i class='fa-solid fa-envelope fa-xl'></i>
+          <a href='mailto:zactec114@gmail.com?subject = Feedback&body = Message'>
+            <i className='fa-solid fa-envelope fa-xl'></i>
           </a>
         </li>
         <li>
@@ -17,7 +17,7 @@ function Navbar() {
         </li>
         <li>
           <a href='https://github.com/zachhh14' target='_blank'>
-            <i class='fa-brands fa-github fa-xl'></i>
+            <i className='fa-brands fa-github fa-xl'></i>
           </a>
         </li>
       </ul>
