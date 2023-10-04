@@ -1,24 +1,38 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import React, { useState } from 'react';
+import './Navbar.css';
 
 function Navbar() {
   return (
-    <nav className='flex justify-between'>
-      <ul className='flex'>
-        <li>linkedin</li>
+    <nav className='flex items-center justify-between px-20 py-6 bg-black opacity-80'>
+      <ul className='flex space-x-3 text-white'>
         <li>
-        <FontAwesomeIcon icon={solid("linkedin")} />
+          <a href='mailto:abc@example.com?subject = Feedback&body = Message'>
+            <i class='fa-solid fa-envelope fa-xl'></i>
+          </a>
         </li>
-        <li>github</li>
-        <li>gmail</li>
-      </ul>
-      <ul className='flex'>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Certifications</li>
         <li>
-          <button>Download CV</button>
+          <a href='https://www.linkedin.com/in/zachtecson/' target='_blank'>
+            <i className='cursor-pointer fa-brands fa-linkedin fa-xl'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://github.com/zachhh14' target='_blank'>
+            <i class='fa-brands fa-github fa-xl'></i>
+          </a>
+        </li>
+      </ul>
+      <ul className='flex items-center space-x-3 text-xl text-white cursor-pointer'>
+        <li>
+          <button>About</button>
+        </li>
+        <li>
+          <button>Projects</button>
+        </li>
+        <li>
+          <button>Certifications</button>
+        </li>
+        <li>
+          <button className='px-5 py-1.5 text-black bg-white rounded-md'>Download CV</button>
         </li>
       </ul>
     </nav>
