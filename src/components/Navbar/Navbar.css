@@ -1,44 +1,8 @@
-nav > ul > li > button:hover {
+nav > ul > li > button:hover,
+.parent-navbar > ul > li > button:hover {
   font-weight: 700;
 }
 
 li {
   font-family: 'Inter';
-}
-
-@media only screen and (max-width: 828px) {
-
-  .tab, .cv-button{
-    display: none !important;
-  } 
-
-  nav {
-    padding-left: 24px !important;
-    padding-right: 24px !important;
-  }
-
-  .hamburger{
-    display: block !important;
-  }
-
-  .tab {
-    width: 80px !important;
-    margin-left: 0px;
-    margin: 0 !important;
-    min-width: 134px !important;
-  }
-
-  .tabs > li {
-    margin: 0 !important; 
-  }
-
-  .tabs {
-    width: 65%;
-    justify-content: space-around !important;
-  }
-
-  .cv-button {
-    margin: 0 !important;
-  } 
-  
 }

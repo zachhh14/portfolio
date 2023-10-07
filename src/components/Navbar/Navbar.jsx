@@ -1,14 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './Navbar.css';
 import { Fade as Hamburger } from 'hamburger-react';
 
 function Navbar() {
+  // for hamburger functionality
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <nav className={`fixed z-10 flex flex-col w-full px-20 py-6 text-white bg-black opacity-80 ${isOpen ? 'h-96':'' } `}>
-      <div className='flex items-center justify-between w-full'>
-        <ul className='flex space-x-3 '>
+    <div className='fixed z-10 w-full px-6 text-white bg-black md:px-20 opacity-80 parent-navbar'>
+      <nav className='flex items-center justify-between py-6'>
+        <ul className='flex space-x-3'>
           <li>
             <a href='mailto:zactec114@gmail.com?subject = Feedback&body = Message'>
               <i className='fa-solid fa-envelope fa-xl'></i>
@@ -25,27 +26,31 @@ function Navbar() {
             </a>
           </li>
         </ul>
-        <ul className='flex items-center space-x-3 text-xl cursor-pointer tabs'>
+        <ul className='flex items-center space-x-3 text-xl'>
           <li>
-            <button className='w-28 tab'>About</button>
+            <button className='hidden w-28 md:block'>About</button>
           </li>
           <li>
-            <button className='w-28 tab'>Projects</button>
+            <button className='hidden w-28 md:block'>Projects</button>
           </li>
           <li>
-            <button className='w-36 tab'>Certifications</button>
+            <button className='hidden w-36 md:block'>Certifications</button>
           </li>
-          <li className='cv-button'>
+          <li className='hidden md:block'>
             <button className='px-5 py-1.5 text-black bg-white rounded-md w-44'>
               Download CV
             </button>
           </li>
-          <li className='hidden hamburger'>
+          <li className='block md:hidden'>
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </li>
         </ul>
-      </div>
-      <ul className={`${!isOpen ? 'hidden' : 'flex flex-col justify-around h-full text-xl'}`}>
+      </nav>
+      <ul
+        className={`${
+          isOpen ? 'md:hidden' : 'hidden'
+        } flex flex-col justify-around text-xl py-6 h-60`}
+      >
         <li>
           <button>About</button>
         </li>
@@ -61,7 +66,7 @@ function Navbar() {
           </button>
         </li>
       </ul>
-    </nav>
+    </div>
   );
 }
 
