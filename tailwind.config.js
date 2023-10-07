@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -7,8 +8,13 @@ export default {
   theme: {
     fontFamily: {
       inter: ['Inter', 'san-serif'],
+      monsterrat: ['Montserrat', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors:{
+        'background-color' :'#1E2225',
+      }
+    },
   },
   plugins: [],
 }
