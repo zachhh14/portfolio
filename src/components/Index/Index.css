@@ -16,5 +16,14 @@ h1 {
 }
 
 hr {
-  width: 400px;
+  max-width: 815px;
+  width: 100%;
+  min-width: 279px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-section {
+    height: 50vh;
+  }
+  
 }
