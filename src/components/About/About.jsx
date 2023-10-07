@@ -4,13 +4,13 @@ import ZachPicture from '../../assets/zach-picture.svg';
 
 function About() {
   return (
-    <div className='w-full px-32 bg-background-color h-[899px] pt-9'>
+    <div className='w-full md:px-32 px-10 bg-background-color min-h-[899px] pt-9'>
       <h1 className='w-full font-semibold text-white text-8xl'>About me</h1>
-      <main className='flex mt-[72px] px-36'>
-        <aside className='w-6/12'>
-          <img src={ZachPicture} alt='zach_picture' className='' />
+      <main className='flex flex-col item-center px-0 lg:flex-row mt-[72px] w-full'>
+        <aside className='w-full lg:w-6/12 '>
+          <img src={ZachPicture} alt='zach_picture' className='m-auto'/>
         </aside>
-        <article className='w-6/12 mr-2 text-white'>
+        <article className='text-white lg:w-6/12 lg:mr-2'>
           <h2 className='text-6xl font-medium'>Zachary Tecson</h2>
           <section className='mb-5 address'>
             <i className='mr-2 fa-solid fa-location-dot'></i>
