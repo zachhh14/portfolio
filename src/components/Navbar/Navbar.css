@@ -1,8 +1,3 @@
-nav > ul > li > button:hover,
-.parent-navbar > ul > li > button:hover {
-  font-weight: 700;
-}
-
 li {
   font-family: 'Inter';
 }

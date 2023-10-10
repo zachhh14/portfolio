@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Navbar.css';
 import { Fade as Hamburger } from 'hamburger-react';
+import Resume from '../../assets/resume_tecson.pdf';
 
 function Navbar() {
   // for hamburger functionality
@@ -28,18 +29,26 @@ function Navbar() {
         </ul>
         <ul className='flex items-center space-x-3 text-xl'>
           <li>
-            <button className='hidden w-28 md:block'>About</button>
-          </li>
-          <li>
-            <button className='hidden w-28 md:block'>Projects</button>
-          </li>
-          <li>
-            <button className='hidden w-36 md:block'>Certifications</button>
-          </li>
-          <li className='hidden md:block'>
-            <button className='px-5 py-1.5 text-black bg-white rounded-md w-44'>
-              Download CV
+            <button className='hidden w-28 md:block hover:font-bold'>
+              About
             </button>
+          </li>
+          <li>
+            <button className='hidden w-28 md:block hover:font-bold'>
+              Projects
+            </button>
+          </li>
+          <li>
+            <button className='hidden w-36 md:block hover:font-bold'>
+              Certifications
+            </button>
+          </li>
+          <li className='hidden w-48 md:block'>
+            <a href={Resume} download='Resume' target='_blank' rel='noreferrer'>
+              <button className='px-5 py-1.5 text-black bg-white rounded-md w-full hover:font-bold font-inter'>
+                Download CV
+              </button>
+            </a>
           </li>
           <li className='block md:hidden'>
             <Hamburger toggled={isOpen} toggle={setOpen} />
@@ -52,18 +61,20 @@ function Navbar() {
         } flex flex-col justify-around text-xl py-6 h-60`}
       >
         <li>
-          <button>About</button>
+          <button className='hover:font-bold'>About</button>
         </li>
         <li>
-          <button>Projects</button>
+          <button className='hover:font-bold'>Projects</button>
         </li>
         <li>
-          <button>Certifications</button>
+          <button className='hover:font-bold'>Certifications</button>
         </li>
         <li>
-          <button className='px-5 py-1.5 text-black bg-white rounded-md w-44'>
-            Download CV
-          </button>
+          <a href={Resume} download='Resume' target='_blank' rel='noreferrer'>
+            <button className='text-black bg-white rounded-md w-44 hover:font-bold'>
+              Download CV
+            </button>
+          </a>
         </li>
       </ul>
     </div>

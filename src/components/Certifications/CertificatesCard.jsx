@@ -4,7 +4,7 @@ function CerficatesCard(props) {
   return (
     <section className='bg-white rounded-[40px] min-h-[112px] h-full max-h-[500px] p-9 flex flex-col text-black m-[5px]'>
       <h1 className='text-2xl font-bold'>{props.name}</h1>
-      <span>{props.trainingInstitue}</span>
+      <span className='font-light'>{props.trainingInstitue}</span>
       <a
         href={props.link}
         target='_blank'
