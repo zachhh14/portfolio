@@ -3,10 +3,10 @@ import React from 'react';
 function Experience() {
   return (
     <div className='lg:px-32 px-10 bg-background-color mim-h-[899px] pt-12 text-white'>
-      <h1 className='w-full text-6xl font-bold lg:text-8xl lg:px-32 md:px-32'>
+      <h1 className='w-full text-5xl font-bold sm:text-6xl lg:text-8xl lg:px-32 md:px-32'>
         Experience
       </h1>
-      <div className='flex flex-wrap justify-center lg:space-x-3 > * lg:mt-20 text-black'>
+      <div className='flex flex-wrap justify-center lg:space-x -3 > * lg:mt-20 text-black'>
         <section className='flex flex-col justify-between bg-white max-w-[575px] h-96 rounded-[40px] p-14 2xl:m-0 mt-6'>
           <div>
             <h2 className='text-4xl font-bold'>

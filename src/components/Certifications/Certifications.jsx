@@ -5,7 +5,7 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 function Certifications() {
   return (
     <div className='px-10 py-12 text-white h-3/4 bg-background-color lg:px-32 md:px-32'>
-      <h1 className='w-full mb-6 text-6xl font-bold text-right lg:text-8xl lg:px-32 lg:mb-20'>
+      <h1 className='w-full mb-6 text-5xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32 lg:mb-20'>
         Certifications
       </h1>
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 765: 2, 1435: 3 }}>
