@@ -1,0 +1,5 @@
+/* hover effects */
+.project-card:hover > .project-title,
+.project-card:hover > span {
+  display: block !important;
+}
