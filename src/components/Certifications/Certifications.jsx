@@ -8,7 +8,7 @@ function Certifications() {
       <h1 className='w-full mb-6 text-6xl font-bold text-right lg:text-8xl lg:px-32 lg:mb-20'>
         Certifications
       </h1>
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 765: 2, 1435: 3 }}>
+      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 880: 2, 1435: 3 }}>
         <Masonry>
           <CerficatesCard
             name='Creative Web Design'
