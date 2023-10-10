@@ -5,7 +5,7 @@ import './Projects.css';
 
 function Project() {
   return (
-    <div className='lg:px-32 px-10 bg-background-color mim-h-[899px] pt-12 text-white'>
+    <div className='lg:px-32 md:px-32 px-10 bg-background-color mim-h-[899px] pt-12 text-white'>
       <h1 className='w-full text-6xl font-bold text-right lg:text-8xl lg:px-32'>
         Recent projects
       </h1>

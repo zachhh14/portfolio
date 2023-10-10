@@ -7,7 +7,7 @@ function About() {
       <h1 className='w-full font-semibold text-white lg:text-8xl text-7xl lg:px-32'>
         About me
       </h1>
-      <main className='flex flex-col item-center px-0 lg:flex-row mt-[72px] w-full'>
+      <main className='flex flex-col item-center px-0 lg:flex-row lg:mt-[72px] mt-6 w-full'>
         <aside className='w-full lg:w-6/12 '>
           <img src={ZachPicture} alt='zach_picture' className='m-auto' />
         </aside>
