@@ -5,7 +5,7 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 function Certifications() {
   return (
     <div
-      id='certifications'
+      id='certifications-section'
       className='px-10 py-12 text-white h-3/4 bg-background-color lg:px-32 md:px-32'
     >
       <h1 className='w-full mb-6 text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32 lg:mb-20'>

@@ -6,7 +6,7 @@ import './Projects.css';
 function Project() {
   return (
     <div
-      id='projects'
+      id='projects-section'
       className='lg:px-32 md:px-32 px-10 bg-background-color mim-h-[899px] pt-12 text-white'
     >
       <h1 className='w-full text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32'>

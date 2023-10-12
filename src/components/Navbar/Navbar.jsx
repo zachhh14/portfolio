@@ -30,17 +30,22 @@ function Navbar() {
         <ul className='flex items-center space-x-3 text-xl'>
           <li>
             <button className='hidden w-28 md:block hover:font-bold'>
-              <a href='#about'>About</a>
+              <a href='#about-section'>About</a>
             </button>
           </li>
           <li>
             <button className='hidden w-28 md:block hover:font-bold'>
-              <a href='#projects'>Projects</a>
+              <a href='#projects-section'>Projects</a>
+            </button>
+          </li>
+          <li>
+            <button className='hidden w-28 md:block hover:font-bold'>
+              <a href='#experiences-section'>Experience</a>
             </button>
           </li>
           <li>
             <button className='hidden w-36 md:block hover:font-bold'>
-              <a href='#certifications'>Certifications</a>
+              <a href='#certifications-section'>Certifications</a>
             </button>
           </li>
           <li className='hidden w-48 md:block'>
@@ -62,17 +67,22 @@ function Navbar() {
       >
         <li>
           <button className='hover:font-bold'>
-            <a href='#about'>About</a>
+            <a href='#about-section'>About</a>
           </button>
         </li>
         <li>
           <button className='hover:font-bold'>
-            <a href='#projects'>Projects</a>
+            <a href='#projects-section'>Projects</a>
           </button>
         </li>
         <li>
           <button className='hover:font-bold'>
-            <a href='#certifications'>Certifications</a>
+            <a href='#experiences-section'>Experience</a>
+          </button>
+        </li>
+        <li>
+          <button className='hover:font-bold'>
+            <a href='#certifications-section'>Certifications</a>
           </button>
         </li>
         <li>
