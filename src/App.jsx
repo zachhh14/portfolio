@@ -1,4 +1,3 @@
-import './App.css';
 import About from './components/About/About.jsx';
 import Certifications from './components/Certifications/Certifications.jsx';
 import Experience from './components/Experience/Experience.jsx';
