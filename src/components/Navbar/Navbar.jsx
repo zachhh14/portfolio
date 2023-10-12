@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Fade as Hamburger } from 'hamburger-react';
-import Resume from '../../assets/resume_tecson.pdf';
+import Resume from '/resume.pdf';
 import ZtLogo from '../../assets/ZT-logo-large.svg';
 
 function Navbar() {
@@ -11,8 +11,8 @@ function Navbar() {
   return (
     <div className='fixed z-10 w-full px-6 text-white bg-black md:px-20 opacity-80 parent-navbar'>
       <nav className='flex items-center justify-between py-6'>
-        <a href='/' >
-          <img src={ZtLogo} alt='zt_logo' className='opacity-100'/>
+        <a href='/'>
+          <img src={ZtLogo} alt='zt_logo' className='opacity-100' />
         </a>
         <ul className='flex items-center space-x-3 text-xl'>
           <li>
@@ -35,10 +35,10 @@ function Navbar() {
               <a href='#certifications-section'>Certifications</a>
             </button>
           </li>
-          <li className='hidden w-48 md:block'>
-            <a href={Resume} download='Resume' target='_blank' rel='noreferrer'>
+          <li className='hidden w-36 md:block'>
+            <a href={Resume} target='_blank'>
               <button className='px-5 py-1.5 text-black bg-white rounded-md w-full hover:font-bold font-inter'>
-                Download CV
+                Resume
               </button>
             </a>
           </li>
@@ -73,9 +73,9 @@ function Navbar() {
           </button>
         </li>
         <li>
-          <a href={Resume} download='Resume' target='_blank' rel='noreferrer'>
-            <button className='text-black bg-white rounded-md w-44 hover:font-bold'>
-              Download CV
+          <a href={Resume} target='_blank'>
+            <button className='text-black bg-white rounded-md w-36 hover:font-bold'>
+              Resume
             </button>
           </a>
         </li>

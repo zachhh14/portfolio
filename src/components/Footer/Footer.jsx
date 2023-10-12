@@ -21,26 +21,37 @@ function Footer() {
         </li>
       </ul>
       <span className='font-light text-sm'>
-        Loosely designed in{' '}
+        Designed in{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://www.figma.com/' target='_blank'>Figma</a>
-        </strong>{' '}
-        and coded in{' '}
+          <a href='https://www.figma.com/' target='_blank'>
+            Figma
+          </a>
+        </strong>
+        , Coded in{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://code.visualstudio.com/' target='_blank'>Visual Studio Code</a>
-        </strong>{' '}
-        by yours truly. Built with{' '}
+          <a href='https://code.visualstudio.com/' target='_blank'>
+            Visual Studio Code
+          </a>
+        </strong>
+        , with{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://react.dev/' target='_blank'>React.JS</a>
+          <a href='https://react.dev/' target='_blank'>
+            React.JS
+          </a>
         </strong>{' '}
         and{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://tailwindcss.com/' target='_blank'>Tailwind CSS</a>
+          <a href='https://tailwindcss.com/' target='_blank'>
+            Tailwind CSS
+          </a>
         </strong>{' '}
-        , deployed with{' '}
+        , Deployed with{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://github.com/' target='_blank'>GitHub</a>
-        </strong>.
+          <a href='https://github.com/' target='_blank'>
+            GitHub
+          </a>
+        </strong>
+        .
       </span>
     </footer>
   );
