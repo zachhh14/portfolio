@@ -14,7 +14,7 @@ function About() {
         About me
       </h1>
       <main className='flex flex-col item-center px-0 lg:flex-row lg:mt-[72px] mt-6 w-full'>
-        <aside className='w-full lg:w-6/12 '>
+        <aside className='w-full mb-5 lg:w-6/12 lg:mb-0'>
           <img src={ZachPicture} alt='zach_picture' className='m-auto' />
         </aside>
         <article className='text-white lg:w-6/12 lg:mr-2'>
