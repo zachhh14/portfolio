@@ -52,18 +52,19 @@ function About() {
           <section className='bg-black px-5 pb-5 pt-[14px] rounded-2xl'>
             <ul className='flex flex-wrap flex-start skills-list'>
               <li className='my-auto'>
-                <a href='https://react.dev/'>
+                <a href='https://react.dev/' target='_blank'>
                   <i className='fa-brands fa-react'></i> React.JS
                 </a>
               </li>
               <li>
-                <a href='https://vuejs.org/'>
+                <a href='https://vuejs.org/' target='_blank'>
                   <i className='fa-brands fa-vuejs'></i> Vue.JS
                 </a>
               </li>
               <li>
                 <a
                   href='https://getbootstrap.com/'
+                  target='_blank'
                   className='flex items-center'
                 >
                   <RiBootstrapLine className='mr-1' />
@@ -73,6 +74,7 @@ function About() {
               <li>
                 <a
                   href='https://tailwindcss.com/'
+                  target='_blank'
                   className='flex items-center'
                 >
                   <SiTailwindcss className='mr-1' />
@@ -81,12 +83,14 @@ function About() {
               </li>
               <li>
                 <a href='https://laravel.com/'>
-                  <i className='fa-brands fa-laravel'></i> Laravel
+                  <i className='fa-brands fa-laravel' target='_blank'></i>{' '}
+                  Laravel
                 </a>
               </li>
               <li>
                 <a
                   href='https://codeigniter.com/'
+                  target='_blank'
                   className='flex items-center'
                 >
                   <SiCodeigniter className='mr-1' />
@@ -94,7 +98,7 @@ function About() {
                 </a>
               </li>
               <li>
-                <a href='https://nodejs.org/en'>
+                <a href='https://nodejs.org/en' target='_blank'>
                   <i className='fa-brands fa-node-js'></i> Node JS
                 </a>
               </li>
