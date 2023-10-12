@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 import { Fade as Hamburger } from 'hamburger-react';
 import Resume from '../../assets/resume_tecson.pdf';
