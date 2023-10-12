@@ -3,7 +3,7 @@ import ZachPicture from '../../assets/zach-picture.svg';
 
 function About() {
   return (
-    <div className='w-full md:px-32 px-10 bg-background-color min-h-[899px] pt-9'>
+    <div id='about' className='w-full md:px-32 px-10 bg-background-color min-h-[899px] pt-9'>
       <h1 className='w-full text-5xl font-semibold text-white sm:text-6xl lg:text-8xl lg:px-32'>
         About me
       </h1>

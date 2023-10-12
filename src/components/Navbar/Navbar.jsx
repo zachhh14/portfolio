@@ -30,17 +30,17 @@ function Navbar() {
         <ul className='flex items-center space-x-3 text-xl'>
           <li>
             <button className='hidden w-28 md:block hover:font-bold'>
-              About
+              <a href='#about'>About</a>
             </button>
           </li>
           <li>
             <button className='hidden w-28 md:block hover:font-bold'>
-              Projects
+              <a href='#projects'>Projects</a>
             </button>
           </li>
           <li>
             <button className='hidden w-36 md:block hover:font-bold'>
-              Certifications
+              <a href='#certifications'>Certifications</a>
             </button>
           </li>
           <li className='hidden w-48 md:block'>
@@ -61,13 +61,19 @@ function Navbar() {
         } flex flex-col justify-around text-xl py-6 h-60`}
       >
         <li>
-          <button className='hover:font-bold'>About</button>
+          <button className='hover:font-bold'>
+            <a href='#about'>About</a>
+          </button>
         </li>
         <li>
-          <button className='hover:font-bold'>Projects</button>
+          <button className='hover:font-bold'>
+            <a href='#projects'>Projects</a>
+          </button>
         </li>
         <li>
-          <button className='hover:font-bold'>Certifications</button>
+          <button className='hover:font-bold'>
+            <a href='#certifications'>Certifications</a>
+          </button>
         </li>
         <li>
           <a href={Resume} download='Resume' target='_blank' rel='noreferrer'>
