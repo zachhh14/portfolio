@@ -3,7 +3,10 @@ import ExperienceCard from './ExperienceCard';
 
 function Experience() {
   return (
-    <div className='lg:px-32 px-10 bg-background-color mim-h-[899px] pt-12 text-white'>
+    <div
+      id='experiences'
+      className='lg:px-32 px-10 bg-background-color mim-h-[899px] pt-12 text-white'
+    >
       <h1 className='w-full text-5xl font-bold sm:text-6xl lg:text-8xl lg:px-32 md:px-32'>
         Experience
       </h1>
