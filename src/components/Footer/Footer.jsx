@@ -23,23 +23,23 @@ function Footer() {
       <span className='font-light text-sm'>
         Loosely designed in{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://www.figma.com/'>Figma</a>
+          <a href='https://www.figma.com/' target='_blank'>Figma</a>
         </strong>{' '}
         and coded in{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://code.visualstudio.com/'>Visual Studio Code</a>
+          <a href='https://code.visualstudio.com/' target='_blank'>Visual Studio Code</a>
         </strong>{' '}
         by yours truly. Built with{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://react.dev/'>React.JS</a>
+          <a href='https://react.dev/' target='_blank'>React.JS</a>
         </strong>{' '}
         and{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://tailwindcss.com/'>Tailwind CSS</a>
+          <a href='https://tailwindcss.com/' target='_blank'>Tailwind CSS</a>
         </strong>{' '}
         , deployed with{' '}
         <strong className='font-bold hover:underline cursor-pointer'>
-          <a href='https://github.com/'>GitHub</a>
+          <a href='https://github.com/' target='_blank'>GitHub</a>
         </strong>.
       </span>
     </footer>
