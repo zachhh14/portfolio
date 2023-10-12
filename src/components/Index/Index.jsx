@@ -7,7 +7,7 @@ function Index() {
       <div className='flex flex-col items-center text-white intro-message'>
         <h1 className='text-3xl font-normal md:text-4xl mb-7'>
           Hello, I'm <br />
-          <strong className='text-5xl font-bold whitespace-nowrap md:text-6xl'>
+          <strong className='text-4xl font-bold whitespace-nowrap md:text-6xl'>
             Zachary Tecson
           </strong>
         </h1>
