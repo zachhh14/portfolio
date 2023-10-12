@@ -1,7 +1,6 @@
 import React from 'react';
 import ZachPicture from '../../assets/zach-picture.svg';
 import './About.css';
-import TailwindLogo from '../../assets/tailwindlogo.svg';
 import { SiTailwindcss, SiCodeigniter } from 'react-icons/si';
 import { RiBootstrapLine } from 'react-icons/ri';
 
