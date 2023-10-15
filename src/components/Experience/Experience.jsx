@@ -12,16 +12,16 @@ function Experience() {
       </h1>
       <div className='flex flex-wrap justify-center mt-6 lg:space-x -3 > * lg:mt-20 text-black'>
         <ExperienceCard
-          position='Front-end Web Developer (Intern)'
-          company='Hacktiv Colab Inc.'
-          date='Aug 2022 - Oct 2022'
-          description='Assigned in converting Figma design to a static websites. Participated in Daily Stand up Meeting where we breakdown tasks into smaller task.'
-        />
-        <ExperienceCard
           position='Full-stack Web Developer (Part-time)'
           company='Technomancer Inc.'
           date='Feb 2023 - Sep 2023'
           description='Assigned to creating business solutions for business like, Employee Maintenance, Payroll System, E-commerce Website'
+        />
+        <ExperienceCard
+          position='Front-end Web Developer (Intern)'
+          company='Hacktiv Colab Inc.'
+          date='Aug 2022 - Oct 2022'
+          description='Assigned in converting Figma design to a static websites. Participated in Daily Stand up Meeting where we breakdown tasks into smaller task.'
         />
       </div>
     </div>
