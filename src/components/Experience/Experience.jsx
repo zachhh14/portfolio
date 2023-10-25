@@ -5,12 +5,12 @@ function Experience() {
   return (
     <div
       id='experiences-section'
-      className='lg:px-32 px-10 bg-background-color mim-h-[899px] pt-12 text-white'
+      className='lg:px-32 md:px-32 px-10 px-10 bg-background-color mim-h-[899px] pt-12 text-white'
     >
       <h1 className='w-full text-4xl font-bold sm:text-6xl lg:text-8xl lg:px-32 md:px-32'>
         Experience
       </h1>
-      <div className='flex flex-wrap justify-center mt-6 lg:space-x -3 > * lg:mt-20 text-black'>
+      <div className='flex flex-col lg:flex-row justify-center items-center mt-6 lg:space-x -3 > * lg:mt-20 text-black'>
         <ExperienceCard
           position='Full-stack Web Developer (Part-time)'
           company='Technomancer Inc.'

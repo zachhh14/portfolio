@@ -12,7 +12,7 @@ function Project() {
       <h1 className='w-full text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32'>
         Recent projects
       </h1>
-      <main className='flex flex-wrap justify-center w-full lg:space-x-3 > * lg:mt-20 mt-6'>
+      <main className='flex flex-col items-center md:flex-row justify-center w-full lg:space-x-3 > * lg:mt-20 mt-6'>
         <a href='https://pili-pinas.onrender.com/' target='_blank'>
           <section className='relative project-card'>
             <h2 className='absolute hidden text-4xl font-bold text-center inset-28 project-title'>
