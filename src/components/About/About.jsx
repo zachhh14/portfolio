@@ -39,14 +39,17 @@ function About() {
               >
                 JavaScript
               </a>
-            </strong>{' '}
-            and{' '}
+            </strong>,{' '}
             <strong className='hover:underline'>
               <a href='https://www.php.net/' target='_blank'>
                 PHP
               </a>
-            </strong>
-            .
+            </strong>, {' '}
+            <strong className='hover:underline'>
+              <a href='https://www.python.org/' target='_blank'>
+                Python
+              </a>
+            </strong>, {' '}etc.
           </p>
           <h2 className='mb-2 text-4xl font-bold'>Frameworks</h2>
           <section className='bg-black px-5 pb-5 pt-[14px] rounded-2xl'>

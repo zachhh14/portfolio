@@ -13,7 +13,7 @@ function Index() {
         </h1>
         <hr />
         <span className='mt-4 text-xl font-light whitespace-nowrap md:text-2xl'>
-          Full Stack Web Developer
+          Software Developer
         </span>
       </div>
     </div>
