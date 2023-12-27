@@ -13,7 +13,7 @@ function CerficatesCard(props) {
         target='_blank'
         className='hover:underline'
       >
-        View Certificates <i className='fa-solid fa-arrow-right'></i>
+        View Certificate <i className='fa-solid fa-arrow-right'></i>
       </a>
     </section>
   );
