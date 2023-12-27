@@ -12,6 +12,12 @@ function Experience() {
       </h1>
       <div className='flex flex-col lg:flex-row justify-center items-center mt-6 lg:space-x -3 > * lg:mt-20 text-black'>
         <ExperienceCard
+          position='Full-stack Developer'
+          company='Freelance'
+          date='Oct 2023 - Present'
+          description='Collaborated with other independent developer on creating a web based project management tool.'
+        />
+        <ExperienceCard
           position='Software Developer'
           company='Technomancer Inc.'
           date='Feb 2023 - Sep 2023'
