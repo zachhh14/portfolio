@@ -9,7 +9,7 @@ import Projects from './components/Projects/Projects.jsx';
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> might remove it on the future, but stayed commented for now.*/}
       <Index />
       <About />
       <Projects />
