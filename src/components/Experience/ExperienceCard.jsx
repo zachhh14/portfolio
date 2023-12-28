@@ -2,9 +2,9 @@ import React from 'react';
 
 function ExperienceCard(props) {
   return (
-    <section className='flex flex-col justify-between bg-white max-w-[575px] w-full lg:w-1/2 h-96 rounded-[40px] p-10 sm:p-14 m-1.5'>
+    <section className='flex flex-col justify-between bg-white max-w-[575px] w-full h-96 rounded-[40px] p-10 sm:p-14 m-1.5'>
       <div>
-        <h2 className='text-2xl font-bold sm:text-3xl md:text-4xl'>
+        <h2 className='text-4xl font-bold xl:text-2xl'>
           {props.position}
         </h2>
         <h3>{props.company}</h3>

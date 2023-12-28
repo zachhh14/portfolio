@@ -10,7 +10,7 @@ function Experience() {
       <h1 className='w-full text-4xl font-bold sm:text-6xl lg:text-8xl lg:px-32 md:px-32'>
         Experience
       </h1>
-      <div className='flex flex-col lg:flex-row justify-center items-center mt-6 lg:space-x -3 > * lg:mt-20 text-black'>
+      <div className='flex flex-col xl:flex-row w-full justify-center items-center mt-6 lg:space-x-3 > * lg:mt-20 text-black'>
         <ExperienceCard
           position='Full-stack Developer'
           company='Freelance'
@@ -21,7 +21,7 @@ function Experience() {
           position='Software Developer'
           company='Technomancer Inc.'
           date='Feb 2023 - Sep 2023'
-          description='Assigned to creating business solutions for business like, Employee Maintenance, Payroll System, E-commerce Website'
+          description='Assigned to creating business solutions for business like, Employee Maintenance, Payroll System, E-commerce Website.'
         />
         <ExperienceCard
           position='Front-end Developer'
