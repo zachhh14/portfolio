@@ -20,7 +20,7 @@ function About() {
           <img src={ZachPicture} alt='zach_picture' className='m-auto' />
         </aside>
         <article className='text-white lg:w-6/12 lg:mr-2'>
-          <h2 className='text-4xl font-bold sm:text-6xl'>Zachary Tecson</h2>
+          <h2 className='mb-1 text-4xl font-bold sm:text-6xl'>Zachary Tecson</h2>
           <section className='mb-5 address'>
             <i className='mr-2 fa-solid fa-location-dot'></i>
             <span className='font-light'>
