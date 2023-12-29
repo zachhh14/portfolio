@@ -1,8 +1,6 @@
 import React from 'react';
 import ZachPicture from '../../assets/zach-picture.svg';
 import './About.css';
-import { SiTailwindcss, SiCodeigniter, SiFlask } from 'react-icons/si';
-import { RiBootstrapLine } from 'react-icons/ri';
 import { FiDownload } from "react-icons/fi";
 import Resume from '/resume.pdf';
 
@@ -55,71 +53,6 @@ function About() {
               </a>
             </strong>, {' '}etc.
           </p>
-          <h2 className='mb-2 text-4xl font-bold'>Frameworks</h2>
-          <section className='bg-black px-5 mb-6 pb-5 pt-[14px] rounded-2xl'>
-            <ul className='flex flex-wrap flex-start skills-list'>
-              <li className='my-auto'>
-                <a href='https://react.dev/' target='_blank'>
-                  <i className='fa-brands fa-react'></i> React.JS
-                </a>
-              </li>
-              <li>
-                <a href='https://vuejs.org/' target='_blank'>
-                  <i className='fa-brands fa-vuejs'></i> Vue.JS
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://getbootstrap.com/'
-                  target='_blank'
-                  className='flex items-center'
-                >
-                  <RiBootstrapLine className='mr-1' />
-                  Bootsrap CSS
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://tailwindcss.com/'
-                  target='_blank'
-                  className='flex items-center'
-                >
-                  <SiTailwindcss className='mr-1' />
-                  Tailwind CSS
-                </a>
-              </li>
-              <li>
-                <a href='https://laravel.com/'>
-                  <i className='fa-brands fa-laravel' target='_blank'></i>{' '}
-                  Laravel
-                </a>
-              </li>
-              <li>
-                <a
-                  href='https://codeigniter.com/'
-                  target='_blank'
-                  className='flex items-center'
-                >
-                  <SiCodeigniter className='mr-1' />
-                  Codeigniter
-                </a>
-              </li>
-              <li>
-                <a href='https://nodejs.org/en' target='_blank'>
-                  <i className='fa-brands fa-node-js'></i> Node JS
-                </a>
-              </li>
-              <li>
-                <a 
-                  href='https://flask.palletsprojects.com/en/3.0.x/' 
-                  target='_blank'
-                  className='flex items-center'
-                >
-                  <SiFlask className='mr-1'/> Flask
-                </a>
-              </li>
-            </ul>
-          </section>
           <a href={Resume} target='_blank'>
             <button className='flex items-center p-3 mb-2 font-bold text-black bg-white rounded-xl hover:underline'>
               <FiDownload className='mr-2 text-black'/>
