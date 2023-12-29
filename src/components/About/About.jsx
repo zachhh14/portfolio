@@ -30,7 +30,7 @@ function About() {
           <p className='mb-2 sm:text-xl'>
             🎓 Graduated with a Diploma in Information Communication Technology 
             from Polytechnic University of the Philippines. Currently taking 
-            bachelor's degree in Information Technology at Polytechnic Univesity 
+            bachelor's degree in Information Technology at Polytechnic University 
             of the Philippines.
           </p>
           <p className='mb-5 sm:text-xl'>
