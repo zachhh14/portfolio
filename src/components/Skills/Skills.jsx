@@ -12,7 +12,7 @@ const Skills = () => {
             <h1 className='w-full mb-6 text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32'>
                 Skills
             </h1>
-            <div className="bg-black min-h-[300px] lg:my-36 rounded-[40px] p-10 flex flex-col justify-between lg:flex-row mx-52">
+            <div className="bg-black min-h-[300px] lg:my-36 rounded-[40px] p-10 flex flex-col justify-between lg:flex-row 2xl:mx-52">
                 <div className="flex flex-col mb-2 lg:w-2/5">
                     <h2 className='text-3xl font-bold'>Frameworks</h2>
                     <div className="flex flex-wrap">
