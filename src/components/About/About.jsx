@@ -24,7 +24,7 @@ function About() {
           <img src={ZachPicture} alt='zach_picture' className='m-auto' />
         </aside>
         <article className='text-white lg:w-6/12 lg:mr-2'>
-          <h2 className='text-4xl font-bold sm:text-6xl'>John Zachary Mereul Tecson</h2>
+          <h2 className='mb-1 text-4xl font-bold sm:text-6xl'>John Zachary Mereul Tecson</h2>
           <section className='mb-5 address'>
             <i className='mr-2 fa-solid fa-location-dot'></i>
             <span className='font-light'>
@@ -34,7 +34,7 @@ function About() {
           <p className='mb-2 sm:text-xl'>
             🎓 Graduated with a Diploma in Information Communication Technology 
             from Polytechnic University of the Philippines. Currently taking 
-            bachelor's degree in Information Technology at Polytechnic Univesity 
+            bachelor's degree in Information Technology at Polytechnic University 
             of the Philippines.
           </p>
           <p className='mb-5 sm:text-xl'>
