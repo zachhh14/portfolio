@@ -6,13 +6,18 @@ import './Projects.css';
 function Project() {
   return (
     <div
-      id='projects-section'
-      className='lg:px-32 md:px-32 px-10 bg-background-color min-h-[899px] pt-12 text-white'
+      className='lg:px-32 md:px-32 px-10 bg-background-color min-h-[800px] pt-12 text-white'
     >
-      <h1 className='w-full text-4xl font-bold sm:text-6xl lg:text-8xl lg:px-32'>
+      <h1 
+        className='w-full text-4xl font-bold sm:text-6xl lg:text-8xl lg:px-32'
+        data-aos="fade-up"
+      >
         Recent projects
       </h1>
-      <main className='flex flex-col items-center md:flex-row justify-center w-full lg:space-x-3 > * lg:mt-20 mt-6'>
+      <div 
+        className='flex flex-col items-center md:flex-row justify-center w-full lg:space-x-3 > * lg:mt-20 mt-6'
+        data-aos="fade-left"
+      >
         <a href='https://pili-pinas.onrender.com/' target='_blank'>
           <section className='relative project-card'>
             <h2 className='absolute hidden text-4xl font-bold text-center inset-28 project-title'>
@@ -41,7 +46,7 @@ function Project() {
             />
           </section>
         </a>
-      </main>
+      </div>
     </div>
   );
 }

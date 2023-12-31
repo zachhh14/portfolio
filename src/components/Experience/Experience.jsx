@@ -7,10 +7,16 @@ function Experience() {
       id='experiences-section'
       className='lg:px-32 md:px-32 px-10 px-10 bg-background-color min-h-[899px] pt-12 text-white'
     >
-      <h1 className='w-full text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32 md:px-32'>
+      <h1 
+        className='w-full text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32 md:px-32'
+        data-aos="fade-up"
+      >
         Experience
       </h1>
-      <div className='flex flex-col xl:flex-row w-full justify-center items-center mt-6 lg:space-x-3 > * lg:mt-20 text-black'>
+      <div 
+        className='flex flex-col xl:flex-row w-full justify-center items-center mt-6 lg:space-x-3 > * lg:mt-20 text-black'
+        data-aos="fade-left"
+      >
         <ExperienceCard
           position='Full-stack Developer'
           company='Freelance'
