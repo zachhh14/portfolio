@@ -9,7 +9,7 @@ import Skills from './components/Skills/Skills.jsx';
 
 function App() {
   return (
-    <>
+    <div className='bg-background-color'>
       {/* <Navbar /> might remove it on the future, but stayed commented for now.*/}
       <Index />
       <About />
@@ -18,7 +18,7 @@ function App() {
       <Experience />
       <Certifications />
       <Footer />
-    </>
+    </div>
   );
 }
 

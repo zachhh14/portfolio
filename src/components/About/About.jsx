@@ -9,16 +9,22 @@ function About() {
     <div
       id='about-section'
       className='w-full md:px-32 px-10 bg-background-color min-h-[899px] pt-9'
-    >
-      <h1 className='w-full text-4xl font-semibold text-white sm:text-6xl lg:text-8xl lg:px-32'>
+      >
+      <h1 
+        className='w-full text-4xl font-semibold text-white sm:text-6xl lg:text-8xl lg:px-32'
+        data-aos="fade-up"
+      >
         About me
       </h1>
-      <main className='flex flex-col item-center px-0 lg:flex-row lg:mt-[72px] mt-6 w-full'>
+      <main 
+        className='flex flex-col item-center px-0 lg:flex-row lg:mt-[72px] mt-6 w-full'
+        data-aos="fade-left"
+      >
         <aside className='w-full mb-5 lg:w-6/12 lg:mb-0'>
           <img src={ZachPicture} alt='zach_picture' className='m-auto' />
         </aside>
         <article className='text-white lg:w-6/12 lg:mr-2'>
-          <h2 className='text-4xl font-bold sm:text-6xl'>Zachary Tecson</h2>
+          <h2 className='text-4xl font-bold sm:text-6xl'>John Zachary Mereul Tecson</h2>
           <section className='mb-5 address'>
             <i className='mr-2 fa-solid fa-location-dot'></i>
             <span className='font-light'>
