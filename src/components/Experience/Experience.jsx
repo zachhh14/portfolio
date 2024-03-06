@@ -30,7 +30,7 @@ function Experience() {
           description='Assigned to creating business solutions for business like, Employee Maintenance, Payroll System, E-commerce Website.'
         />
         <ExperienceCard
-          position='Front-end Developer'
+          position='Front-end Developer (Intern)'
           company='Hacktiv Colab Inc.'
           date='Aug 2022 - Oct 2022'
           description='Assigned in converting Figma design to a static websites. Participated in Daily Stand up Meeting where we breakdown tasks into smaller task.'
