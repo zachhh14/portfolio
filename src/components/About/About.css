@@ -13,3 +13,7 @@
 .skills-list > li > a:hover {
   text-decoration: underline;
 }
+
+.container{
+  overflow-x: hidden;
+}
