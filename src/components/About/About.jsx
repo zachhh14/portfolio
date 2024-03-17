@@ -11,7 +11,7 @@ function About() {
       className='w-full md:px-32 px-10 bg-background-color min-h-[899px] pt-9'
       >
       <h1 
-        className='w-full text-4xl font-semibold text-white sm:text-6xl lg:text-8xl lg:px-32'
+        className='w-full text-4xl font-bold text-white sm:text-6xl lg:text-8xl lg:px-32'
         data-aos="fade-up"
       >
         About me

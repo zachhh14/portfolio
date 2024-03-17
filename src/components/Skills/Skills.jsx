@@ -7,16 +7,16 @@ import { GrMysql } from "react-icons/gr";
 const Skills = () => {
     return(
         <div
-            className='lg:px-32 md:px-32 px-10 bg-background-color min-h-[800px] pt-12 text-white'
+            className='px-10 text-white lg:px-32 md:px-32 bg-background-color pt-9'
         >
             <h1  
-                className='w-full mb-6 text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32'
+                className='w-full text-4xl font-bold text-right sm:text-6xl lg:text-8xl lg:px-32'
                 data-aos="fade-up"
             >
                 Skills
             </h1>
             <div 
-                className="bg-black min-h-[300px] lg:my-36 rounded-[40px] p-10 flex flex-col justify-between lg:flex-row 2xl:mx-52"
+                className="bg-black min-h-[300px] lg:mt-[72px] mt-6 rounded-[40px] p-10 flex flex-col justify-between lg:flex-row 2xl:mx-52"
                 data-aos="fade-left"
             >
                 <div className="flex flex-col mb-2 lg:w-2/5">
