@@ -1,7 +1,29 @@
-import React from 'react'
 import ExperienceCard from './ExperienceCard'
 
 function Experience() {
+    const EXPERIENCE = [
+        {
+            position: 'Front-end Developer',
+            company: 'SoluxionLab Inc.',
+            date: 'Feb 2025 - Present',
+            description:
+                'Build intuitive and responsive dashboards and user interfaces using ReactJS and Vite while collaborating with cross-functional teams to design, develop, and deliver new features, as well as performing regular maintenance, updates, and patches to ensure ongoing application stability.',
+        },
+        {
+            position: 'Software Developer',
+            company: 'Freelance/Self Employed',
+            date: 'Oct 2023 - Feb 2025',
+            description:
+                'Delivered web and mobile solutions, developed project management tools and job posting platforms, and secured diverse projects on Upwork while ensuring client satisfaction through effective collaboration.',
+        },
+        {
+            position: 'Software Developer',
+            company: 'Technomancer Inc.',
+            date: 'Feb 2023 - Sep 2023',
+            description:
+                'Assigned to creating business solutions for business like, Employee Maintenance, Payroll System, E-commerce Website.',
+        },
+    ]
     return (
         <div
             id='experiences-section'
@@ -17,24 +39,15 @@ function Experience() {
                 className='flex flex-col xl:flex-row w-full justify-center items-center mt-6 lg:space-x-3 > * lg:mt-20 text-black'
                 data-aos='fade-left'
             >
-                <ExperienceCard
-                    position='Software Developer'
-                    company='Freelance/Self Employed'
-                    date='Oct 2023 - Present'
-                    description='Delivered web and mobile solutions, developed project management tools and job posting platforms, and secured diverse projects on Upwork while ensuring client satisfaction through effective collaboration.'
-                />
-                <ExperienceCard
-                    position='Software Developer'
-                    company='Technomancer Inc.'
-                    date='Feb 2023 - Sep 2023'
-                    description='Assigned to creating business solutions for business like, Employee Maintenance, Payroll System, E-commerce Website.'
-                />
-                <ExperienceCard
-                    position='Front-end Developer (Intern)'
-                    company='Hacktiv Colab Inc.'
-                    date='Aug 2022 - Oct 2022'
-                    description='Assigned in converting Figma design to a static websites. Participated in Daily Stand up Meeting where we breakdown tasks into smaller task.'
-                />
+                {EXPERIENCE.map((exp, index) => (
+                    <ExperienceCard
+                        key={index}
+                        position={exp.position}
+                        company={exp.company}
+                        date={exp.date}
+                        description={exp.description}
+                    />
+                ))}
             </div>
         </div>
     )
