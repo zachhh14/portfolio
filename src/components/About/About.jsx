@@ -37,63 +37,29 @@ function About() {
                         </span>
                     </section>
 
-                    <p className='mb-2 sm:text-xl'>
-                        🎓 Bachelor of Science in Information Technology student
-                        at the Polytechnic University of the Philippines.
-                        Previously earned a Diploma in Information Communication
-                        Technology from the same university.
-                    </p>
-                    <p className='mb-5 sm:text-xl'>
-                        💼 1+ year of combined experience in internship,
-                        part-time roles, and freelance work as a software
-                        developer. Skilled in building web applications using{' '}
-                        <a
-                            href='https://www.typescriptlang.org/docs/'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='font-bold hover:underline'
-                        >
-                            Typescript
-                        </a>
-                        ,{' '}
-                        <a
-                            href='https://www.php.net/docs.php'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='font-bold hover:underline'
-                        >
-                            PHP
-                        </a>
-                        ,{' '}
-                        <a
-                            href='https://react.dev/'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='font-bold hover:underline'
-                        >
-                            React
-                        </a>
-                        ,{' '}
-                        <a
-                            href='https://laravel.com/docs'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='font-bold hover:underline'
-                        >
-                            Laravel
-                        </a>
-                        ,{' '}
-                        <a
-                            href='https://nextjs.org/docs'
-                            target='_blank'
-                            rel='noopener noreferrer'
-                            className='font-bold hover:underline'
-                        >
-                            Next.js
-                        </a>{' '}
-                        and etc. with experience in both frontend and backend
-                        development.
-                    </p>
+                    <div className='max-w-2xl mb-5 space-y-4 sm:text-xl'>
+                        <p>
+                            🎓 BS Information Technology graduate from the
+                            Polytechnic University of the Philippines.
+                        </p>
+
+                        <p>
+                            💼 Software developer with hands-on experience in
+                            internships, part-time roles, and freelance work,
+                            building scalable and efficient applications.
+                        </p>
+
+                        <p>
+                            ⚡ Skilled in TypeScript, PHP, React, Laravel, and
+                            Next.js.
+                        </p>
+
+                        <p>
+                            🚀 Focused on creating reliable, user-centered
+                            solutions and continuously improving across
+                            different areas of software development.
+                        </p>
+                    </div>
                     <a href={Resume} target='_blank'>
                         <button className='flex items-center p-3 mb-2 font-bold text-black bg-white rounded-xl hover:underline'>
                             <FiDownload className='mr-2 text-black' />
