@@ -44,9 +44,9 @@ function About() {
                         </p>
 
                         <p>
-                            💼 Software developer with hands-on experience in
-                            internships, part-time roles, and freelance work,
-                            building scalable and efficient applications.
+                            💼 Software developer with hands-on experience
+                            across internships, freelance work, and full-time
+                            roles, building scalable and efficient applications.
                         </p>
 
                         <p>
