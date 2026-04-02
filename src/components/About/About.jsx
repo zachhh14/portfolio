@@ -46,12 +46,53 @@ function About() {
                         <p>
                             💼 Software developer with hands-on experience
                             across internships, freelance work, and full-time
-                            roles, building scalable and efficient applications.
-                        </p>
-
-                        <p>
-                            ⚡ Skilled in TypeScript, PHP, React, Laravel, and
-                            Next.js.
+                            roles, building scalable and efficient applications
+                            using{' '}
+                            <a
+                                href='https://www.typescriptlang.org/docs/'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='font-bold hover:underline'
+                            >
+                                TypeScript
+                            </a>
+                            ,{' '}
+                            <a
+                                href='https://www.php.net/docs.php'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='font-bold hover:underline'
+                            >
+                                PHP
+                            </a>
+                            ,{' '}
+                            <a
+                                href='https://react.dev/'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='font-bold hover:underline'
+                            >
+                                React
+                            </a>
+                            ,{' '}
+                            <a
+                                href='https://laravel.com/docs'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='font-bold hover:underline'
+                            >
+                                Laravel
+                            </a>
+                            , and{' '}
+                            <a
+                                href='https://nextjs.org/docs'
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                className='font-bold hover:underline'
+                            >
+                                Next.js
+                            </a>
+                            .
                         </p>
 
                         <p>
